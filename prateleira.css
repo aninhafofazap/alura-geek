@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+a {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.prateleira {
+  width: 1100px;
+}
+
+.prateleira .produtos {
+  display: flex;
+}
+
+.prateleira div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.prateleira .produtos .produto {
+  margin-right: 1rem;
+}
+
+.prateleira .produtos .produto:last-child {
+  margin-right: 0;
+}
+
+.prateleira .produtos .produto img {
+  width: 176px;
+  height: 174px;
+}
+
+.prateleira .produtos .produto .nome {
+}
+
+.prateleira .produtos .produto .preco {
+  font-weight: bold;
+}
+
+.prateleira .produtos .produto .link {
+  text-decoration: none;
+  font-weight: bold;
+  color: #2a7ae4;
+}
