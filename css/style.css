@@ -6,6 +6,17 @@
     width: 100%;
 }
 
+.navbar .logo form {
+    position: relative;
+}
+
+.navbar .logo form .fa-magnifying-glass {
+    position: absolute;
+    right: 20px;
+    top: 11px;
+    color: #A2A2A2;
+}
+
 .logo {
     display: flex;
 }
@@ -18,7 +29,10 @@
     border: none;
     padding-left: 1rem;
     margin-left: 2rem;
+    padding-right: 2.5rem;
 }
+
+
 
 .entrar {
     width: 182px;
