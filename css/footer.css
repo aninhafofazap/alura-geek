@@ -4,6 +4,73 @@ footer .informacao {
   height: 368px;
 }
 
+.informacao {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.informacao .informacao-logo {
+  width: 126px;
+}
+
+.informacao li {
+  text-decoration: none;
+  color: #464646;
+  width: 176px;
+  height: 19px;
+  margin: 10px 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+}
+
+.informacao-contato {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.informacao-contato label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #464646;
+  margin: 10px 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+.informacao-contato .nome {
+  background: #FFFFFF;
+  border-radius: 4px;
+  margin: 0 2rem 2rem 0;
+  font-size: 12px;
+  color: #A2A2A2;
+  height: 45px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.informacao-contato textarea {
+  margin: 0 2rem 2rem 0;
+  background: #FFFFFF
+}
+
+.mensagem {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.botao {
+  background: #2a7ae4;
+  width: 133px;
+  height: 50px;
+  border: none;
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  cursor: pointer;
+}
+
 footer .assinatura {
   display: flex;
   align-items: center;
@@ -15,12 +82,11 @@ footer .assinatura {
 
 footer .assinatura a {
   color: #2a7ae4;
+  text-decoration: none;
 }
 
 /* MEDIA QUERY */
 
-@media screen and (max-width: 768px) {
-}
+@media screen and (max-width: 768px) {}
 
-@media screen and (max-width: 360px) {
-}
+@media screen and (max-width: 360px) {}
