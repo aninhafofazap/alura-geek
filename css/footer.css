@@ -92,6 +92,15 @@ footer .assinatura a {
 
 /* MEDIA QUERY */
 
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+  /* .informacao .informacao-logo {
+    display: inline;
+    width: 176px;
+    height: 280px;
+    margin-left: 2rem;
+  } 
+
+  .informacao li {} */
+}
 
 @media screen and (max-width: 360px) {}

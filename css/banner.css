@@ -65,6 +65,28 @@
 
 /* MEDIA QUERY */
 
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+  .banner .banner-promocao .descricao {
+    padding-left: 2rem;
+  }
+}
 
-@media screen and (max-width: 360px) {}
+@media screen and (max-width: 360px) {
+
+  .banner .banner-imagem {
+    height: 192px;
+  }
+
+  .banner .banner-promocao .descricao h1 {
+    font-size: 22px;
+  }
+
+  .banner .banner-promocao .descricao p {
+    font-size: 14px;
+  }
+
+  .banner .banner-promocao .descricao .botao {
+    width: 119px;
+    height: 40px;
+  }
+}
