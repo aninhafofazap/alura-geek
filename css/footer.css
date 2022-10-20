@@ -64,7 +64,6 @@ footer .informacao {
 }
 
 .mensagem {
-  /* font-style: normal; */
   font-size: 16px;
   line-height: 20px;
   color: #a2a2a2;
@@ -102,7 +101,6 @@ footer .assinatura a {
 
   .informacao {
     justify-content: space-around;
-    /* height: 100%; */
     flex-wrap: wrap;
   }
 
