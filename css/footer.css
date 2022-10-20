@@ -13,6 +13,7 @@ footer .informacao {
 
 .informacao .informacao-logo {
   width: 126px;
+  height: 50px;
 }
 
 .informacao li {
@@ -31,6 +32,7 @@ footer .informacao {
 
 .informacao-contato p {
   font-size: 16px;
+  max-width: 560px;
   font-weight: bold;
   color: #464646;
   margin-bottom: 0.5rem;
@@ -43,7 +45,7 @@ footer .informacao {
   font-size: 12px;
   color: #a2a2a2;
   height: 56px;
-  /* width: 560px; */
+  width: 560px;
   border: none;
   padding-left: 0.75rem;
   border-bottom: 2px solid #c8c8c8;
@@ -58,10 +60,10 @@ footer .informacao {
   border-radius: 4px;
   border-bottom: 2px solid #c8c8c8;
   padding-left: 0.75rem;
+  resize: none;
 }
 
 .mensagem {
-  /* font-style: normal; */
   font-size: 16px;
   line-height: 20px;
   color: #a2a2a2;
@@ -93,15 +95,63 @@ footer .assinatura a {
 /* MEDIA QUERY */
 
 @media screen and (max-width: 768px) {
-  /* .informacao .informacao-logo {
-    display: inline;
-    width: 176px;
-    height: 280px;
-    margin-left: 2rem;
-  } 
+  footer {
+    width: 100%;
+  }
 
-  .informacao li {} */
+  .informacao {
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .informacao-contato #nome {
+    max-width: 434px;
+    width: 100%;
+    height: 56px;
+  }
+
+  .informacao .informacao-logo {
+    display: block;
+  }
+
+  .informacao-contato textarea {
+    max-width: 434px;
+    width: 100%;
+    height: 82px;
+  }
+
+  .informacao-contato .botao {
+    width: 151px;
+    height: 40px;
+  }
 }
 
 @media screen and (max-width: 360px) {
+  .informacao {
+    height: 100% !important;
+    padding: 1rem 0;
+  }
+
+  .informacao .informacao-conteudo {
+    padding-bottom: 2rem;
+  }
+
+  .informacao .informacao-contato {
+    padding: 0 2rem;
+  }
+
+  .informacao-contato #nome {
+    width: 100%;
+    height: 56px;
+  }
+
+  .informacao-contato textarea {
+    width: 100%;
+    height: 82px;
+  }
+
+  .informacao-contato .botao {
+    width: 151px;
+    height: 40px;
+  }
 }
