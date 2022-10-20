@@ -1,0 +1,47 @@
+.area {
+    background: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.area .area-titulo {
+    margin-top: 5.75rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 1.5rem;
+}
+
+.area .area-login-caixa {
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-bottom: 0.5rem;
+}
+
+.area .botao {
+    margin: 0 auto;
+    margin-bottom: 5.75rem;
+    max-width: 435px;
+    width: 100%;
+}
+
+.area .area-login-caixa input {
+    width: 423px;
+    background: #FFFFFF;
+    height: 4rem;
+    border: none;
+    border-bottom: 2px solid #C8C8C8;
+    font-size: 16px;
+    color: #A2A2A2;
+    margin: 0.5rem 0;
+    padding: 0;
+    padding-left: 0.75rem;
+}
+
+
+/* MEDIA QUERY */

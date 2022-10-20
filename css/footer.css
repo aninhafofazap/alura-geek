@@ -11,10 +11,15 @@ footer .informacao {
   align-items: center;
 }
 
-.informacao .informacao-logo {
+.informacao .informacao-conteudo-logo {
   width: 126px;
   height: 50px;
+
 }
+
+/* .informacao .informacao-conteudo {
+  display: flex;
+} */
 
 .informacao li {
   text-decoration: none;
