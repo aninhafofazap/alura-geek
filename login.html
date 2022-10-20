@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONT AWESOME ICONS -->
+    <script src="https://kit.fontawesome.com/d1862444e6.js" crossorigin="anonymous"></script>
+    <!-- FONT GOOGLE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/main.css">
+    <title>Alura Geek</title>
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="/image/Logo.png"></a>
+            <form>
+                <input type="text" class="busca" placeholder="O que deseja encontrar?">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </form>
+        </div>
+
+        <nav>
+            <input type="button" value="Login" class="entrar"><i class="fa-solid fa-magnifying-glass"></i>
+        </nav>
+    </header>
+
+    <form class="area">
+
+        <div class="area-titulo">
+            <h2>Iniciar sessão</h2>
+        </div>
+
+        <div class="area-login-caixa">
+            <label for="email"><input type="email" name="email" id="email" required
+                    placeholder="Digite seu email"></label>
+
+            <label for="password"><input type="password" id="password" required placeholder="Digite sua senha"></label>
+        </div>
+        <input type="button" value="Entrar" class="botao">
+
+    </form>
+
+    <footer>
+        <div class="informacao">
+            <div class="informacao-conteudo">
+                <div class="informacao-conteudo-logo">
+                    <a href="index.html"><img src="/image/Logo.png"></a>
+                </div>
+                <ul class="informacao-conteudo-lista">
+                    <li>Quem somos nós</li>
+                    <li>Política de privacidade</li>
+                    <li>Programa fidelidade</li>
+                    <li>Nossas lojas</li>
+                    <li>Quero ser franqueado</li>
+                    <li>Anuncie aqui</li>
+                </ul>
+            </div>
+            <div class="informacao-contato">
+                <p>Fale conosco</p>
+                <!--<label for="nome">Nome</label>-->
+                <input type="text" placeholder="Nome" id="nome">
+
+                <textarea cols="60" rows="3" placeholder="Escreva sua mensagem" class="mensagem"></textarea>
+                <input type="button" value="Enviar mensagem" class="botao">
+            </div>
+        </div>
+        <div class="assinatura">
+            <p>Desenvolvido por Ana Victória &
+                <a href="https://www.labzone.com.br" target="_blank" rel="noopener noreferrer">Lab Zone</a>
+            </p>
+            <p>2022</p>
+        </div>
+    </footer>
+</body>
+
+</html>
