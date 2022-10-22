@@ -11,15 +11,20 @@ footer .informacao {
   align-items: center;
 }
 
-.informacao .informacao-conteudo-logo {
+.informacao .informacao-conteudo .informacao-conteudo-logo {
   width: 126px;
   height: 50px;
-
 }
 
-/* .informacao .informacao-conteudo {
+.informacao .informacao-conteudo .informacao-conteudo-logo a img {
+  max-width: 176px;
+  height: 50px;
+}
+
+.informacao .informacao-conteudo {
   display: flex;
-} */
+  justify-content: space-evenly;
+}
 
 .informacao li {
   text-decoration: none;
@@ -129,6 +134,10 @@ footer .assinatura a {
     width: 151px;
     height: 40px;
   }
+
+  .informacao .informacao-conteudo {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 360px) {
@@ -158,5 +167,9 @@ footer .assinatura a {
   .informacao-contato .botao {
     width: 151px;
     height: 40px;
+  }
+
+  .informacao .informacao-conteudo .informacao-conteudo-lista {
+    text-align: center;
   }
 }
