@@ -22,12 +22,14 @@
     border-radius: 4px;
     margin: 0 auto;
     margin-bottom: 0.5rem;
+    width: 100%;
+    max-width: 559px;
 }
 
 .area .botao {
     margin: 0 auto;
     margin-bottom: 5.75rem;
-    max-width: 435px;
+    max-width: 571px;
     width: 100%;
     display: block;
 }
@@ -37,7 +39,7 @@ a {
 }
 
 .area .area-login-caixa input {
-    width: 423px;
+    width: 100%;
     background: #FFFFFF;
     height: 4rem;
     border: none;
