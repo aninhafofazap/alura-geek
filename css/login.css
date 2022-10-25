@@ -28,6 +28,11 @@
     margin-bottom: 5.75rem;
     max-width: 435px;
     width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
 }
 
 .area .area-login-caixa input {
