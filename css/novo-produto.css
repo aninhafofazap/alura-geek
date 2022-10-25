@@ -11,10 +11,3 @@
 
 
 /* Media query */
-
-@media screen and (max-width: 360px) {
-    .navbar form .fa-solid fa-magnifying-glass {
-        color: #464646;
-        display: inline;
-    }
-}
