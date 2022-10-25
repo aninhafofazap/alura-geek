@@ -23,6 +23,10 @@
   padding-bottom: 1rem;
 }
 
+.prateleira div .botao {
+  margin-bottom: 1rem;
+}
+
 .prateleira div .link {
   color: #2a7ae4;
   font-weight: bold;
