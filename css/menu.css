@@ -1,21 +1,70 @@
-.area .area-menu-titulo {
-    margin-top: 5.75rem;
-    text-align: center;
-    font-weight: bold;
-    font-size: 22px;
-    margin-bottom: 1.5rem;
-}
+ .area-produto {
+     background: #E5E5E5;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     width: 100%;
+ }
 
-.area .area-login-caixa .descricao {
-    resize: none;
-    width: 100%;
-    padding: 0 0.375rem;
-    border: none;
-    height: 82px;
-    border-radius: 4px;
-    border-bottom: 2px solid #C8C8C8;
-    font-size: 16px;
-    color: #A2A2A2;
-    font-family: 'Raleway', sans-serif;
-    ;
-}
+
+ .area-produto .area-menu-titulo-produto {
+     margin-top: 5.75rem;
+     text-align: center;
+     font-weight: bold;
+     font-size: 22px;
+     margin-bottom: 1.5rem;
+ }
+
+
+ .area-produto .area-add-produto {
+     display: flex;
+     flex-direction: column;
+     border-radius: 4px;
+     margin: 0 auto;
+     margin-bottom: 0.5rem;
+     max-width: 559px;
+     width: 100%;
+     margin-bottom: 5.625rem;
+ }
+
+ .area-produto .area-add-produto .area-login-caixa-input {
+     width: 100%;
+     background: #FFFFFF;
+     height: 3.5rem;
+     border: none;
+     border-bottom: 2px solid #C8C8C8;
+     font-size: 16px;
+     color: #A2A2A2;
+     margin: 0.5rem 0;
+     padding: 0;
+     max-width: 539px;
+     padding: 0 0.375rem !important;
+ }
+
+
+ .area-produto .area-add-produto .descricao-produto {
+     resize: none;
+     max-width: 539px;
+     width: 100%;
+     padding: 0 0.375rem;
+     border: none;
+     height: 82px;
+     border-radius: 4px;
+     border-bottom: 2px solid #C8C8C8;
+     font-size: 16px;
+     color: #A2A2A2;
+     font-family: 'Raleway', sans-serif;
+     margin-top: 1rem;
+     margin-bottom: 1rem;
+ }
+
+ .area-produto .area-add-produto .botao {
+     max-width: 551px;
+     height: 62px;
+     width: 100%;
+     cursor: pointer;
+     background: #2a7ae4;
+     color: #ffffff;
+     border: none;
+     padding: 0;
+ }
