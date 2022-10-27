@@ -35,21 +35,30 @@
         </nav>
     </header>
 
-    <form class="area">
+    <form class="area-produto">
 
-        <div class="area-menu-titulo">
+        <div class="area-menu-titulo-produto">
             <h2>Adicionar novo produto</h2>
         </div>
 
-        <div class="area-login-caixa">
-            <label for="URL da imagem"><input type="text" name="text" placeholder="URL da imagem"></label>
-            <label for="Categoria"><input type="text" name="text" placeholder="Categoria"></label>
-            <label for="Nome do produto"><input type="text" name="text" placeholder="Nome do produto"></label>
-            <label for="Preço do produto"><input type="text" name="text" placeholder="Preço do produto"></label>
-            <textarea cols="60" rows="3" placeholder="Descrição do produto" class="descricao"></textarea>
+        <div class="area-add-produto">
+            <label for="URL da imagem">
+                <input type="text" class="area-login-caixa-input" name="text" placeholder="URL da imagem" />
+            </label>
+            <label for="Categoria">
+                <input type="text" class="area-login-caixa-input" name="text" placeholder="Categoria" />
+            </label>
+            <label for="Nome do produto">
+                <input type="text" class="area-login-caixa-input" name="text" placeholder="Nome do produto" />
+            </label>
+            <label for="Preço do produto">
+                <input type="text" class="area-login-caixa-input" name="text" placeholder="Preço do produto" />
+            </label>
 
+            <textarea cols="60" rows="3" placeholder="Descrição do produto" class="descricao-produto"></textarea>
+            <button type="submit" class="botao">Adicionar produto</button>
         </div>
-        <input type="button" value="Adicionar produto" class="botao">
+
     </form>
 
 
