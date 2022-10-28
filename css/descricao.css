@@ -1,0 +1,51 @@
+ .info-produto {
+     background: #E5E5E5;
+     display: flex;
+     align-items: center;
+
+ }
+
+
+ .info-produto .info-produto-imagem img {
+     width: 500px;
+     height: 403px;
+     margin-left: 9.5rem;
+     padding-top: 4rem;
+ }
+
+
+ .info-produto .info-produto-descricao {
+     margin-left: 1rem;
+ }
+
+
+ .info-produto .info-produto-descricao h2 {
+
+     align-items: center;
+     justify-content: center;
+     font-size: 52px;
+     max-width: 560px;
+     width: 100%;
+     height: 61px;
+     color: #464646;
+     font-weight: 500;
+     margin-bottom: 0.5rem;
+ }
+
+
+ .info-produto .info-produto-descricao span {
+     color: #464646;
+     width: 68px;
+     height: 19px;
+     font-size: 16px;
+     font-weight: 700;
+
+ }
+
+ .info-produto .info-produto-descricao p {
+     width: 560px;
+     font-size: 16px;
+     color: #464646;
+     font-weight: 400px;
+     margin-top: 0.5rem;
+ }
