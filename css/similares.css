@@ -1,0 +1,54 @@
+.teste {
+    /* background: red; */
+    margin-right: 990px;
+    margin-left: 40px;
+}
+
+
+
+.similares {
+    background: #E5E5E5;
+
+}
+
+.similares h2 {
+    color: #464646;
+    font-size: 32px;
+    font-weight: bold;
+    padding-bottom: 1rem;
+    margin-left: 9.5rem;
+    padding-top: 4rem;
+}
+
+.similares .produtos-similares {
+    display: flex;
+    margin-left: 9.5rem;
+    padding-bottom: 4rem;
+}
+
+.similares .produtos-similares .lista {
+    margin-right: 1rem;
+}
+
+.lista a {
+    text-decoration: none;
+    width: 91px;
+    height: 19px;
+    size: 16px;
+    font-weight: bold;
+    color: #2A7AE4;
+}
+
+.lista .nome {
+    font-size: 16px;
+    color: #464646;
+    font-weight: 500;
+    padding: 0.5rem 0;
+}
+
+.lista .valor {
+    color: #464646;
+    font-weight: 700;
+    font-size: 14px;
+    padding-bottom: 0.5rem
+}
