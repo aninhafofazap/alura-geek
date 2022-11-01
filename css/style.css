@@ -88,5 +88,10 @@
     padding-left: 2.25rem;
     color: #464646;
     display: inline;
+
+  }
+
+  .navbar nav a {
+    text-decoration: none;
   }
 }
