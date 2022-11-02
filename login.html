@@ -31,7 +31,7 @@
         <div></div>
     </header>
 
-    <form class="area" action="/novo-produto.html">
+    <form class="area">
         <div class="area-titulo">
             <h2>Iniciar sessão</h2>
         </div>
@@ -39,13 +39,18 @@
         <div class="area-login-caixa">
             <label for="email">
                 <input class="area-login-caixa-input" type="email" name="email" id="email" required
-                    placeholder="Digite seu email" />
+                    placeholder="Digite seu e-mail" />
             </label>
+
+            <span class="email-error">Error</span>
 
             <label for="password">
                 <input class="area-login-caixa-input" type="password" id="password" required
                     placeholder="Digite sua senha" />
             </label>
+
+            <span class="senha-error">Error</span>
+
 
             <button class="botao" type="submit">Entrar</button>
         </div>
@@ -82,6 +87,7 @@
             <p>2022</p>
         </div>
     </footer>
+    <script src="/js/index.js"></script>
 </body>
 
 </html>

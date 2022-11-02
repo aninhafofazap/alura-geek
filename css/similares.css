@@ -61,27 +61,4 @@
 
 
 
-@media screen and (max-width: 360px) {
-  .similares {
-    width: 300px;
-    padding: 0;
-  }
-
-  .similares .produtos-similares .produto-similar:nth-child(2) {
-    margin-right: 0;
-  }
-
-  .similares .produtos-similares {
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-
-  .similares .produtos-similares .produto-similar {
-    flex: 0 0 43%;
-    margin-bottom: 1rem;
-  }
-
-  .similares .produtos-similares .produto-similar img {
-    max-width: 100%;
-  }
-}
+@media screen and (max-width: 360px) {}
